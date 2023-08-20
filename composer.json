@@ -30,5 +30,12 @@
     "phpstan/phpstan-mockery": "^0.12.0",
     "squizlabs/php_codesniffer": "^3.4",
     "mockery/mockery": "^1.2"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PrimitiveSense\\LaravelRawSqsConnector\\RawSqsServiceProvider"
+      ],
+    }
   }
 }
